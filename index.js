@@ -15,8 +15,8 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 
-app.get('/',async (req,res)=>{
-    await res.send("health done")
+app.get('/', (req,res)=>{
+     res.send("health done")
 })
 
 app.get('/all',async (req,res)=>{
