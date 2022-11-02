@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose=require('mongoose');
 const cors=require('cors');
 const bodyParser=require('body-parser');
-const port=9010;
+const port=process.env.PORT||9010;
 
 const Reminder=require('./Models/reminder');
 
