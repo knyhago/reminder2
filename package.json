@@ -1,21 +1,28 @@
 {
-  "name": "node",
+  "name": "reminder2",
   "version": "1.0.0",
-  "description": "Tasker app is for reminding you to do your task",
+  "description": "reminder one is private so..",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.1",
+    "nodemon": "^2.0.20"
+  },
   "scripts": {
     "start": "node index.js",
     "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "tasks",
-    "job",
-    "reminder"
-  ],
-  "author": "kny",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knyhago/reminder2.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.20"
-  }
+  "bugs": {
+    "url": "https://github.com/knyhago/reminder2/issues"
+  },
+  "homepage": "https://github.com/knyhago/reminder2#readme"
 }
